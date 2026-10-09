@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebooks - TechPoint Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+            color: #bdc3c7;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #34495e;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        /* Seção Principal */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .titulo-secao {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        /* Grid de Produtos */
+        .grid-produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card-produto {
+            background-color: #f8f9fa;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            width: 280px;
+            text-align: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-produto img {
+            width: 100%;
+            height: 160px;
+            object-fit: contain;
+            border-radius: 5px;
+            background-color: white;
+            box-sizing: border-box;
+        }
+
+        .card-produto h3 {
+            color: #2c3e50;
+            font-size: 18px;
+            margin: 10px 0 5px 0;
+        }
+
+        .card-produto .descricao {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .card-produto .especs {
+            background-color: #eef2f5;
+            border-radius: 5px;
+            font-size: 13px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .card-produto .preco {
+            font-size: 20px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .btn-comprar {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .btn-comprar:hover {
+            background-color: #219150;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>TechPoint Informática</h1>
+        <p>Tecnologia, qualidade e preço justo!</p>
+    </header>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="computadores.html">Computadores</a>
+        <a href="notebooks.html">Notebooks</a>
+        <a href="consoles.html">Consoles</a>
+        <a href="monitores.html">Monitores</a>
+        <a href="acessorios.html">Acessorios</a>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="container">
+        <h2 class="titulo-secao">Nossos monitores</h2>
+
+        <div class="grid-produtos">
+
+            <!-- MONITOR 1 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFEZiAYnWD58-30zXz7WBBeghmUTdMfAUoO29RG4VdA&s" alt="">
+                    <h3>LG UltraGear 24GS60F-B</h3>
+                    <p class="descricao"></p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                     <p>• Tela IPS de 24",<br/>• resolução Full HD (1920x1080),<br/>• taxa de atualização de 180 Hz, <br/>• tempo de resposta de 1 ms</p>
+                
+
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 740</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- MONITOR 2 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvGbLdXyu9pDzKjU8qZ1FeO1gnEtjWwg53NYwF9YUTgA&s=10" alt="">
+                    <h3>Samsung T350</h3>
+                    <p class="descricao"></p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        <p>• Tela IPS de 24",<br/>• resolução Full HD (1920x1080),<br/>• taxa de atualização de 75 Hz, <br/>• tempo de resposta de 5 ms</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 599</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- MONITOR 3 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvyNwV59GYkWFeL-YUqQR_VDMXRkACjsC9QiZvHWkFXA&s=10" alt="">
+                    <h3>AOC Hero 27G2</h3>
+                    <p class="descricao"></p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        <p>• Tela IPS de 27",<br/>• resolução Full HD (1920x1080),<br/>• taxa de atualização de 144 Hz, <br/>• tempo de resposta de 1 ms com base ergonômica.</p>
+                    
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 899,99</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- MONITOR 4 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqL8l3H2qzCFHmAGm2Ice2nvYbJgxwCx0cKbHC4U1JWA&s" alt="">
+                    <h3>Samsung Odyssey G40</h3>
+                    <p class="descricao"></p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                    <p>• Tela IPS de 27",<br/>• resolução Full HD (1920x1080), <br/>• taxa de atualização de 240 Hz, <br/>• tempo de resposta de 1 ms</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 1.599</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- MONITOR 5 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoiokgLdLxxvwl3dPf6be26b3ZCVN0ZMFJl-9XIkjGQ&s=10" alt="">
+                    <h3>Samsung LU32J590UQLXZD</h3>
+                    <p class="descricao"></p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                    <p>• Tela VA de 31.5",<br/>• resolução 4K UHD (3840x2160),<br/>• taxa de atualização de 60 Hz, <br/>• tempo de resposta de 4 ms</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 1499</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- MONITOR 6 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdIDYfWSNP55waYTBQFqSxkhVyEItiS7rtHAnHpHpRaA&s=10" alt="">
+                    <h3>LG UltraGear Curvo 34GP63A-B </h3>
+                    <p class="descricao"></p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        <p>• Tela VA curva de 34",<br/>• resolução WQHD (3440x1440),<br/>• taxa de atualização de 160 Hz,<br/>• tempo de resposta de 1 ms</p>
+                    
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 1.999,99</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computadores - TechPoint Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+            color: #bdc3c7;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #34495e;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        /* Seção Principal */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .titulo-secao {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        /* Grid de Produtos */
+        .grid-produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card-produto {
+            background-color: #f8f9fa;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            width: 280px;
+            text-align: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-produto img {
+            width: 100%;
+            height: 160px;
+            object-fit: contain;
+            border-radius: 5px;
+            background-color: white;
+            box-sizing: border-box;
+        }
+
+        .card-produto h3 {
+            color: #2c3e50;
+            font-size: 18px;
+            margin: 10px 0 5px 0;
+        }
+
+        .card-produto .descricao {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .card-produto .especs {
+            background-color: #eef2f5;
+            border-radius: 5px;
+            font-size: 13px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .card-produto .preco {
+            font-size: 20px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .btn-comprar {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .btn-comprar:hover {
+            background-color: #219150;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>TechPoint Informática</h1>
+        <p>Tecnologia, qualidade e preço justo!</p>
+    </header>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="computadores.html">Computadores</a>
+        <a href="notebooks.html">Notebooks</a>
+        <a href="consoles.html">Consoles</a>
+        <a href="monitores.html">Monitores</a>
+        <a href="acessorios.html">Acessorios</a>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="container">
+        <h2 class="titulo-secao">Nossos Computadores</h2>
+
+        <div class="grid-produtos">
+
+            <!-- PC 1 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/398598/Computador-Home-Office-Intel-Core-I3-3-30GHz-8GB-SSD-240GB-Windows-10-Home-Teclado-E-Mouse_1682627579_gg.jpg" alt="PC Home Office">
+                    <h3>PC Home Office</h3>
+                    <p class="descricao">Ideal para estudos, navegação e tarefas do dia a dia.</p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        • Intel Core i3<br>
+                        • 8GB RAM<br>
+                        • SSD 240GB
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 1.899,90</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- PC 2 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSapgK20l9y6NoizSvxVB-dCRq9Rpuu0oVXxzRtxuAvZw&s=10" alt="PC Gamer Básico">
+                    <h3>PC Gamer Básico</h3>
+                    <p class="descricao">Excelente para jogos leves e uso diário com ótimo custo-benefício.</p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        • AMD Ryzen 5<br>
+                        • 16GB RAM<br>
+                        • SSD 480GB
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 2.799,90</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- PC 3 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOUNNYD4X189j-FuLap_ihyBjDB24qZk524v2XD7psYg&s=10" alt="PC Gamer Pro">
+                    <h3>PC Gamer Pro</h3>
+                    <p class="descricao">Alto desempenho para rodar jogos modernos em alta qualidade.</p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        • AMD Ryzen 7<br>
+                        • 16GB RAM<br>
+                        • SSD 1TB
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 4.499,90</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- PC 4 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTA13QDRpIzu4XBAwRJk58mgFp0pmK9EfA2YE1apwzxg&s=10" alt="PC Profissional">
+                    <h3>PC Profissional</h3>
+                    <p class="descricao">Ideal para trabalho pesado, edição de fotos e tarefas complexas.</p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        • Intel Core i7<br>
+                        • 32GB RAM<br>
+                        • SSD 1TB
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 5.499,90</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- PC 5 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStL2wtKokB01luvVo4DPwu-pFVhh7qRnl9wW_fv2EZXA&s" alt="PC Empresarial">
+                    <h3>PC Empresarial</h3>
+                    <p class="descricao">Projetado para escritórios, empresas e máxima produtividade.</p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        • Intel Core i5<br>
+                        • 16GB RAM<br>
+                        • SSD 512GB
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 3.299,90</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+            <!-- PC 6 -->
+            <div class="card-produto">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo33uAXnnG_fIjqZga5jakGiklVHDbPJW-mNcVcJe1Gw&s" alt="PC Ultra Gamer">
+                    <h3>PC Ultra Gamer</h3>
+                    <p class="descricao">Desempenho máximo para jogos em 4K e live streaming.</p>
+                    <div class="especs">
+                        <strong>Especificações:</strong><br>
+                        • AMD Ryzen 9<br>
+                        • 32GB RAM<br>
+                        • SSD 2TB
+                    </div>
+                </div>
+                <div>
+                    <p class="preco">R$ 7.499,90</p>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
